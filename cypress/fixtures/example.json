@@ -1,0 +1,7 @@
+{
+  "loginPage":{
+    "inputUsername":"[placeholder='Username']",
+    "inputPassword":"[placeholder='Password']",
+    "btnLoginSubmit":"[type='submit']"
+  }
+}
