@@ -1,0 +1,17 @@
+{
+    "reporter": "cypress-multi-reporters",
+        "reporterOptions": {
+            "reporterEnabled": "spec ,mochawesome, mocha-junit-reporter",
+            "mochawesomeReporterOptions": {
+                "charts": true,
+                "reportPageTitle": "test-report",
+                "embeddedScreenshots": true,
+                "inlineAssets": true,
+                "saveAllAttempts": false,
+                "saveJson":true
+            },
+            "mochaJunitReporterReporterOptions": {
+                "mochaFile": "cypress/results/results-test.xml"
+            }
+        }
+}
