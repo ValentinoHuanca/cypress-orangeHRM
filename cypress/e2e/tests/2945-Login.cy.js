@@ -33,6 +33,3 @@ describe('TS',()=>{
         cy.get('[data-v-957b4417] span').eq(0).should('contain.text','Required')
     })
 })
-
-const {removeLogs} = require('../../support/helper/RemoveLogs')
-removeLogs();
